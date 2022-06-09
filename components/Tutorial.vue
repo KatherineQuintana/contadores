@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Bienvenidos a los contadores</h1>
+    <h1>Bienvenidos al contador</h1>
   </div>
 </template>
 

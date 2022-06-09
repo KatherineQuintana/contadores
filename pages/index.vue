@@ -1,15 +1,17 @@
 <template>
   <div>
     <Tutorial />
-    <contadores />
+    <NameContador />
+    <!--     <contadores /> -->
   </div>
 </template>
 
 <script>
-import Contadores from '~/components/Contadores.vue'
+import NameContador from '../components/NameContador.vue'
+/* import Contadores from '~/components/Contadores.vue' */
 
 export default {
   name: 'IndexPage',
-  components: { Contadores }
+  components: { /*  Contadores,  */NameContador }
 }
 </script>
