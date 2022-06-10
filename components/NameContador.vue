@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="countDiv">
     <form @submit.prevent="addName">
       <input
         v-model.trim="nameCount"
@@ -35,3 +35,10 @@ export default {
   }
 }
 </script>
+
+<style>
+
+.countDiv {
+  margin-top: 30px;
+}
+</style>
